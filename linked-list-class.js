@@ -38,7 +38,7 @@ class LinkedList {
         return this.head;
     }    
 
-    tail() {
+    toTail() {
         let node = this.head;
         while(node.nextNode) node = node.nextNode;
         return node;

@@ -17,7 +17,7 @@ console.log(list.find("cock"));
 console.log(list.contains("parrot"));
 console.log(list.contains("cock"));
 console.log(list.toHead());
-console.log(list.tail());
+console.log(list.toTail());
 console.log(list.at(3));
 list.pop();
 console.log(list.toString());
